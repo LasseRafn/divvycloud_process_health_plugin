@@ -1,4 +1,4 @@
-#DivvyCloud Process Heatlh Plugin
+#DivvyCloud Process Health Plugin
 
 This plugin provides access to DivvyCloud process health information
 Data can be accessed via the API endpoint :
