@@ -13,7 +13,7 @@ To install this plugin simply place the DivvyCloud-Process-Health package in the
 This plugin required DivvyCloud 15.17  or later
 
 
-#TODo
+#TODO
 
  - Provide process average loop time
  - Provide memory information
