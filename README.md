@@ -1,4 +1,4 @@
-#DivvyCloud Process Heatlh Plugin
+#DivvyCloud Process Health Plugin
 
 This plugin provides access to DivvyCloud process health information
 Data can be accessed via the API endpoint :
@@ -13,7 +13,7 @@ To install this plugin simply place the DivvyCloud-Process-Health package in the
 This plugin required DivvyCloud 15.17  or later
 
 
-#TODo
+#TODO
 
  - Provide process average loop time
  - Provide memory information
