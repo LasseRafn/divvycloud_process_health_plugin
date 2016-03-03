@@ -19,16 +19,11 @@ class metadata(PluginMetadata):
 
 
 blueprint = Blueprint('status', __name__, static_folder='html', template_folder='html')
-
-@blueprint.route('/get_status', methods=['POST','GET'])
+@blueprint.routeUnauthenticated('/get_status', methods=['POST','GET'])
 def get_queues_status():
     """
     Retrieve a list of DivvyCloud processes
     """
-
-    # Requires system admin
-#    session = DivvySession.current_session()
-#    session.session_permissions.assert_is_system_admin()
 
     process_list = []
 
